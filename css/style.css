@@ -53,6 +53,35 @@ body {
     color: var(--main-bg-color)
 }
 
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    padding-top: 10px; 
+}
+
+nav li a:hover{
+    color: #0065FC;
+    text-decoration:overline; 
+}
+
+.logo {
+    width: 61.09px;
+    height: 19px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
