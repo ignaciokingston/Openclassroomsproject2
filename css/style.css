@@ -115,11 +115,16 @@ h1 {
 button {
     color: white;
     background-color: #0065FC;
-    font-display: center;
     border: none;
     border-radius: 0 15px 15px 0; 
     font-weight: bold;
     font-size: 18px;
+    padding: 0px 11px 0px 20px;
+    margin-left: -16px;
+}
+
+.btn i{
+    visibility: hidden;
 }
 
 button:hover {
@@ -134,7 +139,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    
 }
 
 .filtres {
@@ -143,8 +148,8 @@ button:hover {
     border: #D9D9D9 solid;
     border-radius: 25px;
     padding: 15px;
-    display: flex;
-    justify-content:space-between;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .filtres strong{
@@ -158,17 +163,19 @@ button:hover {
 
 
 .filtres-paragraph {
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .fa-info {
-    padding: 7px 9px 7px 9px;
-    border-radius: 60%;
+    height: 7px;
+    padding: 7px;
+    border-radius: 100%;
     border: #D9D9D9 solid 1px;    
     color:#0065FC;
     font-size: 12px;
-    text-align: justify;
-    text-indent: 1px;
+    margin: 13px 9px 0 0;
 }
 
 
@@ -302,12 +309,13 @@ margin-left: 10px;
     width: 100%;
     height: 350px;
     display: flex;
+    flex-direction: row;
     margin: 0;
 }
 
 .card-act { 
     width: 25%;
-    display: grid;
+    display: inline-block;
     height: 400px;
     border-radius: 20px;
     margin:20px;
@@ -388,5 +396,210 @@ footer a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+
+    .main-container {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 17%;
+        height: 19px;
+        margin-left: 142px;
+        padding: 20px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }    
+
+    nav li{
+       width:100%;
+    }
+
+    nav ul{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li a {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0 10px 0;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-bottom:#D9D9D9 solid;
+    }
+
+    .nav-option1:hover{
+        border-bottom: #0065FC solid;
+        border-top:white;
+    }
+
+    .nav-option2:hover{
+        border-bottom: #0065FC solid;
+        border-top:white;
+    }
+
+    .filtres{
+        width: 100%;
+        display: flex;
+    }
+
+    .menu-de-recherche {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .btn button{
+        visibility: hidden;
+    }
+
+    .btn i{
+        visibility: visible;
+        background-color: #0065FC;
+        color: white;
+        padding: 15px 21px 0px 21px;
+        border-radius: 15px;
+        margin-left: -9px;
+    }
+
+    h1{
+        width: 92%;
+    }
+
+    .conteneur-filtres{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    .filtre-text{
+        width:100%;
+        margin: 10px;
+
+    }
+
+    .filtres{
+        width: 45%;
+        margin: 5px;
+    }
+
+    .filtres-paragraph{
+        display: inline-block;
+    }
+
+    .filtres-paragraph i{
+        margin-top: 20px;
+    }
+
+    .filtres-paragraph p{
+        width: 90%;
+        float:right;
+        text-indent: 3px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .hebergements-and-populaires{
+        width:100%;
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+    .populaires-cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-heb{
+        width:90%;
+        margin: 10px;
+    }
+
+    .populaires-cards .card {
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+    }
+
+    .hebergements-and-populaires section{
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .hebergements{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .afficher-plus a {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+
+    .activites-marseille{
+        height: 1200px;
+    }
+
+    .containeur-activites{
+        display: flex;
+        flex-direction: column;
+        height: 1111px;
+    }
+
+    .card-act{
+        width:90%;
+        margin-bottom: 10px;
+    }
+
+    .card-act img{
+        height: 180px;
+    }
+
+    footer{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-boite{
+        margin: 15px 0 15px 0;
+    }
+
+    .footer-boite a{
+        margin: 6px 0 6px 0;
+    }
+
+
 }
