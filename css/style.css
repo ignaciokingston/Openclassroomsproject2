@@ -371,7 +371,7 @@ footer a {
     }
 
     .conteneur-filtres{
-        width: 90%;
+        width: 103%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -395,6 +395,10 @@ footer a {
 
     .hebergements {
         width: 100%;
+    }
+
+    .card-heb{
+        width: 32%;
     }
 
     .populaires {
@@ -427,6 +431,7 @@ footer a {
 
     .card-act {
         height: 250px;
+        margin: 10px;
     }
 
     .card-act img{
@@ -435,9 +440,9 @@ footer a {
 
     .card-act h4 {
         text-indent: 0;
-        width: 85%;
+        width: 100%;
         justify-content: center;
-        margin-left: 15px;
+        margin-left: 10px;
     }
 
     .titres-long{
@@ -513,15 +518,22 @@ footer a {
     .filtres{
         width: 100%;
         display: flex;
+        margin-left: 15px;
     }
 
     .menu-de-recherche {
-        width: 100%;
-        margin: 15px;
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .btn {
+        width: 0;
+        margin: 0;
     }
 
     .btn button{
         visibility: hidden;
+        font-size:0;
     }
 
     .btn i{
@@ -534,15 +546,17 @@ footer a {
     }
 
     h1{
-        width: 92%;
+        margin: 15px 0 15px 0;
     }
 
+
     .conteneur-filtres{
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        
     }
 
 
@@ -559,6 +573,7 @@ footer a {
 
     .filtres-paragraph{
         display: inline-block;
+        width: 90%;
     }
 
     .filtres-paragraph i{
@@ -588,8 +603,8 @@ footer a {
     }
 
     .card-heb{
-        width:90%;
-        margin: 10px;
+        width: 100%;
+        margin: 10px 0 10px 0;
     }
 
     .populaires-cards .card {
@@ -614,13 +629,13 @@ footer a {
     }
 
     .afficher-plus a {
-        margin: 10px;
         font-size: 20px;
     }
 
 
     .activites-marseille{
         height: 1200px;
+        width: 100%;
     }
 
     .containeur-activites{
@@ -630,8 +645,8 @@ footer a {
     }
 
     .card-act{
-        width:90%;
-        margin-bottom: 10px;
+        width:85%;
+        margin: 25px;
     }
 
     .card-act img{
@@ -645,7 +660,7 @@ footer a {
     }
 
     .footer-boite{
-        margin: 15px 0 15px 0;
+        margin: 15px 0 15px 10px;
     }
 
     .footer-boite a{
