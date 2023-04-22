@@ -478,8 +478,6 @@ footer a {
 
     nav {
         width: 100%;
-        display: flex;
-        flex-direction: row;
     }    
 
     nav li{
@@ -513,12 +511,6 @@ footer a {
     .nav-option2:hover{
         border-bottom: #0065FC solid;
         border-top:white;
-    }
-
-    .filtres{
-        width: 100%;
-        display: flex;
-        margin-left: 15px;
     }
 
     .menu-de-recherche {
@@ -555,20 +547,19 @@ footer a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        
+        justify-content: space-around;    
     }
 
 
     .filtre-text{
         width:100%;
         margin: 10px;
-
     }
 
     .filtres{
         width: 45%;
         margin: 5px;
+        display: flex;
     }
 
     .filtres-paragraph{
